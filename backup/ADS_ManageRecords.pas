@@ -320,7 +320,7 @@ begin
   for i:=0 to (length(czescOsob)-1) do
   begin
     writeln('+----------------------------------------------------+');
-    writeln('+ Osoba: ',i,'/',length(czescOsob));
+    writeln('+ Osoba: ',i+1,'/',length(czescOsob));
     writeln('+----------------------------------------------------+');
     writeln('+ Imie: ',czescOsob[i].Imie);
     writeln('+ Nazwisko: ',czescOsob[i].Nazwisko);
